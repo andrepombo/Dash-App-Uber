@@ -17,8 +17,8 @@ server = app.server
 app.title = 'App uber'
 
 # API keys and datasets
-#mapbox_access_token = config('MAPBOX_ACCESS_TOKEN')
-mapbox_access_token= 'pk.eyJ1IjoiYW5kcmVwb21ibyIsImEiOiJjanoyeDF2NW8wMW95M21vaXJmd3Y4ZTg5In0.8ZkHIXyY7S3jtuquKvM4Ug'
+mapbox_access_token = config('MAPBOX_ACCESS_TOKEN')
+#mapbox_access_token= 'pk.eyJ1IjoiYW5kcmVwb21ibyIsImEiOiJjanoyeDF2NW8wMW95M21vaXJmd3Y4ZTg5In0.8ZkHIXyY7S3jtuquKvM4Ug'
 df = pd.read_csv('uber_filtro.csv')
 
 # Boostrap CSS.
